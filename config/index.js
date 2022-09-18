@@ -85,7 +85,6 @@ export const config = {
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2019-03-29"},
-       
       ]
     },
     {
