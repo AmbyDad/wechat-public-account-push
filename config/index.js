@@ -28,11 +28,11 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -60,9 +60,9 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "老婆",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oWX_p58B_Njx1rGB_tKw7cHy7EIM",
+      id: "oWX_p59r69e_w34gzQxFa0tYoadg",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "e1x_2FmQXGaIx4FU1C4jb9rLAay5lmGAtkOo1m046c4",
       // 所在省份
@@ -78,11 +78,11 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2002", "date": "10-08"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "*生日", "name": "宝宝", "year": "2002", "date": "10-08"},
+        {"type": "节日", "name": "纪念日", "year": "2019", "date": "03-29"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "李四", "year": "2002", "date": "10-08"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2019", "date": "03-29"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -95,13 +95,13 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
+      name: "自己",
       id: "oWX_p58B_Njx1rGB_tKw7cHy7EIM",
       useTemplateId: "e1x_2FmQXGaIx4FU1C4jb9rLAay5lmGAtkOo1m046c4",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      province: "浙江",
+      city: "温州",
+      horoscopeDate: '04-22',
+      horoscopeDateType: '本月',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
       customizedDateList: []
