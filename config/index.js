@@ -103,7 +103,10 @@ export const config = {
       horoscopeDate: '04-22',
       horoscopeDateType: '本月',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "宝宝", "year": "2002", "date": "10-08"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2019", "date": "03-29"},],
       customizedDateList: []
     },
     {
